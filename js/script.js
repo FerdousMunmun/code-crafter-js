@@ -190,26 +190,150 @@
 // console.log(`My Name is ${name} My Friend Name Is ${friendName}`)
 
 
-let age = 45;
+// let age = 45;
 
-if (age < 13) {
-    console.log("You are a Child");
+// if (age < 13) {
+//     console.log("You are a Child");
+// }
+// else if (age >= 13 && age < 20) {
+//     console.log("You are a Teenager");
+// }
+// else if (age >= 20 && age < 30) {
+//     console.log("You are a Young Adult");
+// }
+// else if (age >= 30 && age < 50) {
+//     console.log("You are an Adult");
+// }
+// else if (age >= 50 && age < 65) {
+//     console.log("You are a Middle-aged Adult");
+// }
+// else if (age >= 65) {
+//     console.log("You are a Senior Citizen");
+// }
+// else {
+//     console.log("Invalid age input");
+// }
+
+
+                         31 Class
+
+let namtaNumber = 5
+
+
+for (let i = 1; i <= 10; i++){
+    console.log(`${namtaNumber} x ${i} = ${namtaNumber * i}`);
 }
-else if (age >= 13 && age < 20) {
-    console.log("You are a Teenager");
+
+
+
+let namtaNumber = 7
+
+for (let i = 1; i<= 10; i++){
+      console.log(`${namtaNumber} x ${i} = ${namtaNumber * i}`)
 }
-else if (age >= 20 && age < 30) {
-    console.log("You are a Young Adult");
+
+
+function travelbag(){
+    let x = 50
+    let y= 70
+    let z = x+y
+    console.log(z);
+
 }
-else if (age >= 30 && age < 50) {
-    console.log("You are an Adult");
+
+// call korta hoba  funtion r namka
+
+travelbag()
+
+
+Arrow function
+
+
+let attiorBaribag = () =>{
+    console.log ("My Name Is Khan");
+};
+
+attiorBaribag ()
+
+
+
+Array 
+
+let teams = ["Nayem",420,"Ashfak","Nabil","sumen"];
+
+console.log(teams);
+
+
+let myObject = "" ==== Variable
+let myObject = [] ==== Array
+let myObject = {} ==== Object 
+
+if(){
+
+} === if Condition
+
+for(){
+
+} === For loop
+
+function(){
+
+} === Function
+
+Object
+
+let member = {
+    name: "Al-Amin",
+    salary:5,
+    id: 1
 }
-else if (age >= 50 && age < 65) {
-    console.log("You are a Middle-aged Adult");
-}
-else if (age >= 65) {
-    console.log("You are a Senior Citizen");
-}
-else {
-    console.log("Invalid age input");
-}
+
+console.log(member.name)
+console.log(member.salary)
+console.log(member.id)
+
+
+// or 
+
+let {name, salary, id} = {
+    name:"Al-Amin",
+    salary: 5,
+    id:1,
+};
+
+console.log(name,salary,id);
+console.log(name)
+console.log(salary)
+console.log(id)
+
+
+
+let memberList = [
+    {
+    name: "Nayeem",
+    Age: 70,
+    salary: 0,
+    isMarried: "Koranai",
+},
+{
+     name: "Ashfak",
+    Age: 80,
+    salary: 70000,
+    isMarried: "3 Biya",
+},
+
+
+{
+     name: "Rafi",
+    Age: 80,
+    salary: 70000,
+    isMarried: "5 Biya",
+},
+
+
+]
+
+// console.log(memberList)
+console.log(memberList[0].name)
+console.log(memberList[0].salary)
+console.log(memberList[0].age)
