@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 25px;
+    background: rgb(20, 20, 20);
+    border-radius: 10px;
+    border: none;
+    color: tomato;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+h3{
+    color: red;
+    font-size: 50px;
+}

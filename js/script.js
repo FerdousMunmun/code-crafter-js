@@ -95,245 +95,360 @@
 
 // console.log(namtaNumber + " " + "x" + " " + 1 + " " + "=" + " " + namtaNumber*1)
 
-// console.log(namtaNumber + " " + "x" + " " + 2 + " " + "=" + " " + namtaNumber*2)
+// // console.log(namtaNumber + " " + "x" + " " + 2 + " " + "=" + " " + namtaNumber*2)
 
-// console.log(namtaNumber + " " + "x" + " " + 3 + " " + "=" + " " + namtaNumber*3)
+// // console.log(namtaNumber + " " + "x" + " " + 3 + " " + "=" + " " + namtaNumber*3)
 
-// let age = 12
+// // let age = 12
 
-// if(age > 20){
-//     console.log("Condition apply");
-// }
+// // if(age > 20){
+// //     console.log("Condition apply");
+// // }
 
-// else{
-//     console.log("condition not working");
-// }
-// Mattemonial kaj
-// Input Part
+// // else{
+// //     console.log("condition not working");
+// // }
+// // Mattemonial kaj
+// // Input Part
 
-// let area = "Dhaka"
-// let age = 15
-// let salary = 50000
-// Input Part
-// if Part Start
-// 1st if
-// if (area == "Dhaka"){
+// // let area = "Dhaka"
+// // let age = 15
+// // let salary = 50000
+// // Input Part
+// // if Part Start
+// // 1st if
+// // if (area == "Dhaka"){
 
     
-// 2nd if
+// // 2nd if
 
-//     if(age > 25){
-//         // 3rd if
-//         if(salary > 50000){
-//             console.log("Congtrats We Found You")
-//         }
-//         // 3rd Else
-//         else{
-//             console.log("Taka income koro tar por biya koro")
-//         }
-//     }
-//     // 2nd Else
-//     else{
-//         console.log("Age thik Nai");
-//     }
+// //     if(age > 25){
+// //         // 3rd if
+// //         if(salary > 50000){
+// //             console.log("Congtrats We Found You")
+// //         }
+// //         // 3rd Else
+// //         else{
+// //             console.log("Taka income koro tar por biya koro")
+// //         }
+// //     }
+// //     // 2nd Else
+// //     else{
+// //         console.log("Age thik Nai");
+// //     }
+
+// // }
+// // // 1st Else
+// // else{
+// //     console.log("Location thik nai....")
+// // }
+
+// // SSC Grade System
+
+// // let marks = 101
+// // if (marks <0 || Marks >100){
+// //     alert("Tora akta kosaiya thappor")
+// // }
+// //  else if(marks >= 33 && marks <40){
+// //     console.log("U Got D");
+// // }
+// // else if (marks >=40 && marks < 50){
+// //     console.log("U Got C")
+// // }
+// // else if (marks >=50 && marks < 60){
+// //     console.log("U Got B")
+    
+// // }
+// // else if (marks >=60 && marks < 70){
+// //     console.log("U Got A-")
+    
+// // }
+// // else if (marks >=70 && marks < 80){
+// //     console.log("U Got A")
+    
+// // }
+// // else if (marks >=80 && marks <= 100){
+// //     console.log("U Got A+")
+    
+// // }
+
+// // else{
+// //     console.log("U R Fail")
+// // }
+
+
+// // // 3 way to jukkto kora
+
+// // let name = "Nayeem Golla"
+
+// // let friendName = "FM Bohor"
+
+// // console.log("My Name is" +  name + "My Friend name is"+ friendName)
+
+// // console.log("My Name is", name , "My Friend name is", friendName)
+
+// // console.log(`My Name is ${name} My Friend Name Is ${friendName}`)
+
+
+// // let age = 45;
+
+// // if (age < 13) {
+// //     console.log("You are a Child");
+// // }
+// // else if (age >= 13 && age < 20) {
+// //     console.log("You are a Teenager");
+// // }
+// // else if (age >= 20 && age < 30) {
+// //     console.log("You are a Young Adult");
+// // }
+// // else if (age >= 30 && age < 50) {
+// //     console.log("You are an Adult");
+// // }
+// // else if (age >= 50 && age < 65) {
+// //     console.log("You are a Middle-aged Adult");
+// // }
+// // else if (age >= 65) {
+// //     console.log("You are a Senior Citizen");
+// // }
+// // else {
+// //     console.log("Invalid age input");
+// // }
+
+
+//                          31 Class
+
+// let namtaNumber = 5
+
+
+// for (let i = 1; i <= 10; i++){
+//     console.log(`${namtaNumber} x ${i} = ${namtaNumber * i}`);
+// }
+
+
+
+// let namtaNumber = 7
+
+// for (let i = 1; i<= 10; i++){
+//       console.log(`${namtaNumber} x ${i} = ${namtaNumber * i}`)
+// }
+
+
+// function travelbag(){
+//     let x = 50
+//     let y= 70
+//     let z = x+y
+//     console.log(z);
 
 // }
-// // 1st Else
-// else{
-//     console.log("Location thik nai....")
+
+// // call korta hoba  funtion r namka
+
+// travelbag()
+
+
+// Arrow function
+
+
+// let attiorBaribag = () =>{
+//     console.log ("My Name Is Khan");
+// };
+
+// attiorBaribag ()
+
+
+
+// Array 
+
+// let teams = ["Nayem",420,"Ashfak","Nabil","sumen"];
+
+// console.log(teams);
+
+
+// let myObject = "" ==== Variable
+// let myObject = [] ==== Array
+// let myObject = {} ==== Object 
+
+// if(){
+
+// } === if Condition
+
+// for(){
+
+// } === For loop
+
+// function(){
+
+// } === Function
+
+// Object
+
+// let member = {
+//     name: "Al-Amin",
+//     salary:5,
+//     id: 1
 // }
 
-// SSC Grade System
+// console.log(member.name)
+// console.log(member.salary)
+// console.log(member.id)
 
-// let marks = 101
-// if (marks <0 || Marks >100){
-//     alert("Tora akta kosaiya thappor")
-// }
-//  else if(marks >= 33 && marks <40){
-//     console.log("U Got D");
-// }
-// else if (marks >=40 && marks < 50){
-//     console.log("U Got C")
-// }
-// else if (marks >=50 && marks < 60){
-//     console.log("U Got B")
+
+// // or 
+
+// let {name, salary, id} = {
+//     name:"Al-Amin",
+//     salary: 5,
+//     id:1,
+// };
+
+// console.log(name,salary,id);
+// console.log(name)
+// console.log(salary)
+// console.log(id)
+
+
+
+// let memberList = [
+//     {
+//     name: "Nayeem",
+//     Age: 70,
+//     salary: 0,
+//     isMarried: "Koranai",
+// },
+// {
+//      name: "Ashfak",
+//     Age: 80,
+//     salary: 70000,
+//     isMarried: "3 Biya",
+// },
+
+
+// {
+//      name: "Rafi",
+//     Age: 80,
+//     salary: 70000,
+//     isMarried: "5 Biya",
+// },
+
+
+// ]
+
+// // console.log(memberList)
+// console.log(memberList[0].name)
+// console.log(memberList[0].salary)
+// console.log(memberList[0].age)
+
+
+
+
+//                               Class 33
+  
+//  function info(name,age) {
+//     console.log("My Name Is "  +  name  + "My Age Is "   + age);
+//  } 
+ 
+// info('Al-Amin',28)
+// info('sumen',30)
+
+
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
     
 // }
-// else if (marks >=60 && marks < 70){
-//     console.log("U Got A-")
+
+
+// const nayeemTeams = ["KRX" ,"SPORTS","VUGIJUGI", "TIMEPASS" ,420]
+// console.log(nayeemTeams.length);
+// for (let i = 0; i < nayeemTeams.length; i++) {
     
-// }
-// else if (marks >=70 && marks < 80){
-//     console.log("U Got A")
-    
-// }
-// else if (marks >=80 && marks <= 100){
-//     console.log("U Got A+")
-    
+//     console.log(nayeemTeams[i]);
 // }
 
-// else{
-//     console.log("U R Fail")
-// }
+//  const kabirTeams = ["XRK" ,"STROPS","JUKIVUGI", "TIMEUSED" ,420]
+
+// kabirTeams.map((item)=>{
+//     console.log(item);
+// })
+                              
+// kabirTeams.map((i)=>{
+//     console.log(i);
+// })
+
+// kabirTeams.forEach((i)=>{
+//     console.log(i);
+// })
 
 
-// // 3 way to jukkto kora
+// let x = "Al-Amin"
+// let y = 50
+// let z = true
+// let w = [10.20,30]
 
-// let name = "Nayeem Golla"
-
-// let friendName = "FM Bohor"
-
-// console.log("My Name is" +  name + "My Friend name is"+ friendName)
-
-// console.log("My Name is", name , "My Friend name is", friendName)
-
-// console.log(`My Name is ${name} My Friend Name Is ${friendName}`)
+// console.log(typeof x)
+// console.log(typeof y)
+// console.log(typeof z)
+// console.log(typeof w)
 
 
-// let age = 45;
-
-// if (age < 13) {
-//     console.log("You are a Child");
-// }
-// else if (age >= 13 && age < 20) {
-//     console.log("You are a Teenager");
-// }
-// else if (age >= 20 && age < 30) {
-//     console.log("You are a Young Adult");
-// }
-// else if (age >= 30 && age < 50) {
-//     console.log("You are an Adult");
-// }
-// else if (age >= 50 && age < 65) {
-//     console.log("You are a Middle-aged Adult");
-// }
-// else if (age >= 65) {
-//     console.log("You are a Senior Citizen");
-// }
-// else {
-//     console.log("Invalid age input");
-// }
+                        // Welcom To DoM (Document Object Model)
+// const heading = document.querySelector("h3")
+// const bang = document.querySelector(".bang")
+// console.log(heading.innerHTML);  
+// console.log(bang.innerHTML);                
 
 
-                         31 Class
+// const button = document.querySelector("button")
+// button.addEventListener("click",()=>{
+//     heading.style.color="red";
+//      heading.style.background="teal";
+//       heading.style.fontSize="100px";
+// });
 
-let namtaNumber = 5
+// const button = document.querySelector("button")
+// button.addEventListener("click",()=>{
+//     heading.innerText="Nayeem";
+     
+// // });
+// const name = "Bod Nayeem"
+// const asbutton = document.querySelector("button")
+// asbutton.addEventListener("click",()=>{
+//     heading.innerText = name
+     
+// });
+
+let heading = document.querySelector("h3")
+//  let red = document.querySelector(".red")
+//   let green = document.querySelector(".green")
+
+//   red.addEventListener("click",()=>{
+//     document.body.style.background="red"
+//     heading.style.color= "white"
+//   })
+
+//     green.addEventListener("click",()=>{
+//     document.body.style.background="green"
+//   })
 
 
-for (let i = 1; i <= 10; i++){
-    console.log(`${namtaNumber} x ${i} = ${namtaNumber * i}`);
+
+
+
+function x(){
+addEventListener('click',()=>{
+    document.body.style.background="red"
+     heading.style.color= "white"
+})
 }
 
-
-
-let namtaNumber = 7
-
-for (let i = 1; i<= 10; i++){
-      console.log(`${namtaNumber} x ${i} = ${namtaNumber * i}`)
+function y(){
+addEventListener('click',()=>{
+    document.body.style.background="green"
+})
 }
 
+const inputName = document.querySelector("input")
+// console.log(inputName);
 
-function travelbag(){
-    let x = 50
-    let y= 70
-    let z = x+y
-    console.log(z);
-
-}
-
-// call korta hoba  funtion r namka
-
-travelbag()
-
-
-Arrow function
-
-
-let attiorBaribag = () =>{
-    console.log ("My Name Is Khan");
-};
-
-attiorBaribag ()
-
-
-
-Array 
-
-let teams = ["Nayem",420,"Ashfak","Nabil","sumen"];
-
-console.log(teams);
-
-
-let myObject = "" ==== Variable
-let myObject = [] ==== Array
-let myObject = {} ==== Object 
-
-if(){
-
-} === if Condition
-
-for(){
-
-} === For loop
-
-function(){
-
-} === Function
-
-Object
-
-let member = {
-    name: "Al-Amin",
-    salary:5,
-    id: 1
-}
-
-console.log(member.name)
-console.log(member.salary)
-console.log(member.id)
-
-
-// or 
-
-let {name, salary, id} = {
-    name:"Al-Amin",
-    salary: 5,
-    id:1,
-};
-
-console.log(name,salary,id);
-console.log(name)
-console.log(salary)
-console.log(id)
-
-
-
-let memberList = [
-    {
-    name: "Nayeem",
-    Age: 70,
-    salary: 0,
-    isMarried: "Koranai",
-},
-{
-     name: "Ashfak",
-    Age: 80,
-    salary: 70000,
-    isMarried: "3 Biya",
-},
-
-
-{
-     name: "Rafi",
-    Age: 80,
-    salary: 70000,
-    isMarried: "5 Biya",
-},
-
-
-]
-
-// console.log(memberList)
-console.log(memberList[0].name)
-console.log(memberList[0].salary)
-console.log(memberList[0].age)
+inputName.addEventListener("keyup",()=>{
+    console.log(inputName.value);
+})
