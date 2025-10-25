@@ -12,11 +12,43 @@ button{
     border-radius: 10px;
     border: none;
     color: tomato;
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
 }
 
 h3{
     color: red;
     font-size: 50px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+h4{
+    padding-left: 100px;
+    font-size: 50px;
+    
+}
+h1{
+    padding-top: 100px;
+}
+
+
+input{
+    width: 300px;
+    margin-top: 100px;
+    padding: 10px 15px;
+    border: 2px solid teal;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.tBtn{
+    padding: 5px 10px;
+    background: teal;
+    color: white;
+    cursor: ponter;
+    border-radius: 10px;
+    font-size: 30px;
 }

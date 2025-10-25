@@ -416,7 +416,7 @@
      
 // });
 
-let heading = document.querySelector("h3")
+// let heading = document.querySelector("h3")
 //  let red = document.querySelector(".red")
 //   let green = document.querySelector(".green")
 
@@ -446,9 +446,54 @@ addEventListener('click',()=>{
 })
 }
 
-const inputName = document.querySelector("input")
-// console.log(inputName);
+// const inputName = document.querySelector("input")
+// // console.log(inputName);
 
-inputName.addEventListener("keyup",()=>{
-    console.log(inputName.value);
+// inputName.addEventListener("keyup",()=>{
+//     console.log(inputName.value);
+// })
+
+
+
+                                    //    Class 34
+// let pHeading = document.getElementById("r")
+// let rafi = document.getElementsByClassName
+// console.log(pHeading.innerHTML);   
+                                       
+                        // DOCUMENTATION (Kevave submit button r maddhoma kono text ba review add korbo tar documentation)
+ let reviewContainer =document.getElementById("reviewContainer")
+let  reviewInput = document.getElementById("reviewInput")
+let  addReviewBtn = document.getElementById("addReviewBtn")
+
+addReviewBtn.addEventListener("click",()=> {
+    let reviewInput1 = reviewInput.value;
+    let paragraph = document.createElement("p");
+
+     paragraph.innerText =reviewInput1;
+    reviewContainer.appendChild(paragraph)
+    reviewInput.value="" 
+});
+
+
+                            //    DOCUMENT
+                            
+ let deleteContent = document.getElementById("deleteContent")
+let deleteInput = document.getElementById("deleteInput")
+ let deleteBtn = document.getElementById("deleteBtn")
+
+deleteInput.addEventListener("keyup",()=>{
+
+
+    if(deleteInput.value === "Delete"){
+    deleteBtn.removeAttribute("disabled");
+    }
+    else{
+        deleteBtn.setAttribute("disabled",true);
+    }
+    deleteBtn.addEventListener("click",()=>{
+        deleteContent.style.display = "none";
+        deleteInput.value = "";
+        
+    })
+      
 })
