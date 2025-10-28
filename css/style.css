@@ -45,10 +45,36 @@ input{
 }
 
 .tBtn{
-    padding: 5px 10px;
+    padding: 10px 20px;
     background: teal;
     color: white;
     cursor: ponter;
     border-radius: 10px;
     font-size: 30px;
+}
+
+
+.domQ{
+    margin: 0 auto;
+}
+
+.voice{
+    font-size: 50px;
+    color: black;
+    padding-top:100px;
+    padding-left: 80px;
+}
+
+.vBtn{
+     padding: 10px 20px;
+    background: rgb(213, 1, 125);
+    color: rgb(8, 7, 7);
+    cursor: ponter;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.result{
+    font-size: 30px;
+    color: darkred;
+    padding-top: 30px;
 }

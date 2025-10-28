@@ -497,3 +497,43 @@ deleteInput.addEventListener("keyup",()=>{
     })
       
 })
+
+                                        //  Voice
+
+let teamMembers = ["Shakib Al Hasan", "Al-Amin","Sumen","Nipa","Ashfak"];
+
+ function salam(memberName){
+    console.log(`salam ${memberName}`);
+let utterance = new SpeechSynthesisUtterance(`salam ${memberName}`);
+speechSynthesis.speak(utterance);
+ }
+ for (let i = 0; i<teamMembers.length; i++){
+    salam(teamMembers[i]);
+
+ }
+
+
+
+
+                                        // Domkey
+ let results = document.getElementById("results")                                       
+ let age = document.getElementById("age")
+ let submitBtn = document.getElementById("submitBtn")
+ submitBtn.addEventListener("click",()=> {
+    console.log();
+    if(age.value>=18) {
+        results.innerText = "You Can Play The Game"
+        results.style.color="blue"
+        age.value=" "
+        let utterance = new SpeechSynthesisUtterance("You Can Play The Game");
+speechSynthesis.speak(utterance);
+    } 
+    else{
+        results.innerText = "Your Are Child...Wait For 18"
+        results.style.color="red"
+         age.value=" "
+         let utterance = new SpeechSynthesisUtterance("Your Are Child...Wait For 18!");
+speechSynthesis.speak(utterance);
+    }
+ })                                       
+
